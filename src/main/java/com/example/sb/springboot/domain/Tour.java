@@ -6,9 +6,9 @@ import java.util.Objects;
 /**
  * The Tour contains all attributes of an Explore California Tour.
  *
- * Created by Mary Ellen Bowman
  */
 @Entity
+// @entity annotation shows that the respective class is associated/correlated with a table in the database
 public class Tour {
     @Id
     @GeneratedValue
